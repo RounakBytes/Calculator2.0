@@ -19,6 +19,11 @@ const divide = (x, y) => {
     return x / y;
 };
 
+const square = (x) => {
+    return x * x;
+  };
+  
+
 console.log(add(5, 10));
 console.log(substract(10, 5));
 console.log(multiply(5, 25));
