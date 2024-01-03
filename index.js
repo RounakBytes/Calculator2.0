@@ -3,6 +3,8 @@ const add = (x, y) => {
 };
 
 const substract = (x, y) => {
+    if(y > x)
+    return 
   return x - y;
 };
 
